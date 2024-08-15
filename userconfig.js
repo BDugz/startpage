@@ -16,15 +16,15 @@ const default_config = {
   tabs: [
     {
       name: "personal",
-      background_url: "src/img/banners/window-room.png",
+      background_url: "src/img/banners/doom-slayer",
       categories: [
         {
-          name: "media/rrss",
+          name: "BDugz",
           links: [
             {
-              name: "mastodon",
-              url: "https://mastodon.social",
-              icon: "brand-mastodon",
+              name: "youtube",
+              url: "https://www.youtube.com/",
+              icon: "brand-youtube",
               icon_color: "#a6da95",
             },
             {
@@ -40,9 +40,9 @@ const default_config = {
               icon_color: "#ed8796",
             },
             {
-              name: "twitch",
-              url: "https://www.twitch.tv/",
-              icon: "brand-twitch",
+              name: "spotify",
+              url: "https://open.spotify.com",
+              icon: "brand-spotify",
               icon_color: "#8aadf4",
             },
           ],
@@ -52,13 +52,13 @@ const default_config = {
           links: [
             {
               name: "mail",
-              url: "https://mail.proton.me",
-              icon: "brand-campaignmonitor",
+              url: "https://mail.google.com",
+              icon: "brand-gmail",
               icon_color: "#a6da95",
             },
             {
               name: "calendar",
-              url: "https://calendar.proton.me",
+              url: "https://calendar.google.com",
               icon: "calendar-filled",
               icon_color: "#f5a97f",
             },
@@ -70,7 +70,7 @@ const default_config = {
             },
             {
               name: "drive",
-              url: "https://drive.proton.me",
+              url: "https://drive.google.com",
               icon: "cloud",
               icon_color: "#8aadf4",
             },
@@ -80,10 +80,28 @@ const default_config = {
           name: "job",
           links: [
             {
-              name: "linkedin",
-              url: "https://www.linkedin.com/",
-              icon: "brand-linkedin",
+              name: "Oculus",
+              url: "https://alerts.oculus.softlayer.local/alerts",
+              icon: "bell-ringing",
               icon_color: "#a6da95",
+            },
+            {
+              name: "Service Now",
+              url: "https://watson.service-now.com/navpage.do",
+              icon: "snowflake",
+              icon_color: "#f5a97f",
+            },
+            {
+              name: "AppNeta",
+              url: "https://ibm-cloud.pm.appneta.com/pvc/event.html",
+              icon: "flame",
+              icon_color: "#ed8796",
+            },
+            {
+              name: "W3",
+              url: "https://w3.ibm.com",
+              icon: "cloud",
+              icon_color: "#8aadf4",
             },
           ],
         },
@@ -97,22 +115,10 @@ const default_config = {
               icon_color: "#a6da95",
             },
             {
-              name: "amazon-tracker",
-              url: "https://camelcamelcamel.com/",
-              icon: "chart-area",
+              name: "Newegg",
+              url: "https://newegg.com/",
+              icon: "cpu",
               icon_color: "#f5a97f",
-            },
-            {
-              name: "kimovil",
-              url: "https://www.kimovil.com/en/",
-              icon: "cell-signal-5",
-              icon_color: "#ed8796",
-            },
-            {
-              name: "chollometro",
-              url: "https://www.chollometro.com/",
-              icon: "basket",
-              icon_color: "#8aadf4",
             },
           ],
         },
